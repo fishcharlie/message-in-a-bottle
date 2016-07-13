@@ -1,0 +1,11 @@
+
+<% if @times == 5 %>
+	<%= "Ouch! There was a crab in the bottle." %>
+
+<% elsif @location == "east" %>
+	<%= "Argh, the Island of Tortuga runs short of turtles." %>
+<% elsif @location == "west" %>
+	<%= "It's totally awesome to write messages in your used bottles at the end of a spring break rager!" %>
+<% else %>
+	<%= "Location not provided" %>
+<% end %>
